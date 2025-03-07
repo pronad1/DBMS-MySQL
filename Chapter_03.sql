@@ -149,7 +149,7 @@ CREATE TABLE EmployeeSalary (
 -- insert value into the table
 
 -- sql
-
+-- show row as a coloum
 SELECT employeeID, employeeName, department,
     SUM(CASE WHEN month = 'January' THEN salary ELSE 0 END) AS January,
     SUM(CASE WHEN month = 'February' THEN salary ELSE 0 END) AS February,
